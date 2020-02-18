@@ -15,20 +15,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iH-Qm-fgi">
+                                <rect key="frame" x="236" y="775" width="121" height="87"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETd-x1-24m">
-                                <rect key="frame" x="146.5" y="745" width="121" height="87"/>
+                                <rect key="frame" x="57" y="775" width="121" height="87"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="121" id="Fbh-gH-PEw"/>
-                                    <constraint firstAttribute="height" constant="87" id="yB1-Ul-s7x"/>
+                                    <constraint firstAttribute="height" constant="87" id="4ni-o7-AgW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="hKj-a6-zEI"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ETd-x1-24m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a69-P9-iFD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ETd-x1-24m" secondAttribute="bottom" constant="30" id="e0a-BF-cVX"/>
+                            <constraint firstItem="5iH-Qm-fgi" firstAttribute="width" secondItem="ETd-x1-24m" secondAttribute="width" id="GEe-0t-eK6"/>
+                            <constraint firstItem="5iH-Qm-fgi" firstAttribute="leading" secondItem="ETd-x1-24m" secondAttribute="trailing" constant="58" id="GP1-99-AYs"/>
+                            <constraint firstItem="ETd-x1-24m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="RmA-CI-NgQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5iH-Qm-fgi" secondAttribute="bottom" id="dK9-iZ-isG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ETd-x1-24m" secondAttribute="bottom" id="dhK-qc-Jh6"/>
+                            <constraint firstItem="5iH-Qm-fgi" firstAttribute="height" secondItem="ETd-x1-24m" secondAttribute="height" id="woU-cq-feR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5iH-Qm-fgi" secondAttribute="trailing" constant="57" id="yaz-Jv-hrv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
